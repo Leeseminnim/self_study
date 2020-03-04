@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UPF-8">
+    <title>
+      폼
+    </title>
+    </head>
+    <body>
+      <form action="http://exmaple.com/login.php">
+      <p>사용자명:
+        <input type="text" name="username" size="30"
+        maxlength="30" />
+      </p>
+      
+      <p>
+        비밀번호:
+        <input type="passward" name="passward" size="15" maxlength="30" />
+
+      </p>
+
+      <p>
+        <form action="http://www.example.com/comments.php">
+        <p>이 공연에 대해 어케 생각하늬?</p>
+        <textarea name="comments" cols="30" rows="10">니 의견을 입력해봐
+
+        </textarea>
+        </form>
+      
+        <form action="http://www.example.com/comments.php">
+          <p>좋아하는 장르를 선택해봐
+
+            <input type="radio" name="genre" value="rock" checked="checked" /> 락
+            <input type="radio" name="genre" value="rock"  /> 팝
+            <input type="radio" name="genre" value="jazz"  /> 재즈
+          </p>
+
+
+          <form action="http://www.example.com/comments.php">
+            <p>좋아하는 음악 서비스는?
+  
+              <input type="checkbox" name="service" value="rock" checked="checked" /> 락
+              <input type="checkbox" name="service" value="rock"  /> 팝
+              <input type="checkbox" name="service" value="jazz"  /> 재즈
+
+
+              <form action="http://www.example.com/comments.php">
+                <p>어떤 기기 쓰니?
+      
+                  <select name="devices"> 
+                    <option value="ipod">아이팟</option>
+                    <option value="mp3">mp3</option>
+                    <option value="md">md</option>
+                  </select>
+
+<form action="http://www.example.com/upload.php" method="post">
+<p>mp3 포맷으로 노래를 올리세요 :></p>
+<input type="file" name="user" />
+<input type="submit" value="upload">
+</form>
+
+<form action="http://www.example.com/subscribe.php">
+  <p>이메일 목록에 가입하세요</p>
+  <input type="text" name="email">
+  <input type="image" src="./image/subscribe.jpg">
+</form>
+
+<fieldset>
+  <legend>연락처</legend>
+  <label>이메일:<br />
+  <input type="text" name="email" /></label><br/>
+
+  <label>연락처:<br />
+  <input type="text" name="email" /></label><br/>
+  <label>전화:<br />
+  <input type="text" name="email" /></label><br/>
+      
+</fieldset>
+
+      </form>
+    </body>
